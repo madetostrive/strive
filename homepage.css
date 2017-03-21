@@ -301,6 +301,19 @@ body {
     transition: 0.3s;
 }
 
+.nav li span {
+    color: #fff;
+    display: inline-block;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 25px;
+    padding: 17px 20px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.3s;
+}
+
 .nav li a:hover {
     color: #000;
 	cursor: pointer;
@@ -319,6 +332,12 @@ body {
 }
 
 .nav .logo li a {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 21px;
+    text-transform: none;
+}
+
+.nav .logo li span {
     font-family: 'Montserrat', sans-serif;
     font-size: 21px;
     text-transform: none;
@@ -1808,6 +1827,12 @@ body {
 }
 
 #footer5 .nav .logo li a {
+	color: #545454;
+	font-size: 21px;
+    margin: 14px 0 0 0;
+}
+
+#footer5 .nav .logo li span {
 	color: #545454;
 	font-size: 21px;
     margin: 14px 0 0 0;
