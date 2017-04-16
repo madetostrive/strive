@@ -5,7 +5,7 @@ machine:
 dependencies:
   pre:
     - sudo apt-get install python-dev
-    - sudo pip install awsebcli
+    - pip install awsebcli
 
 deployment:
   production:

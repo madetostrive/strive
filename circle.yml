@@ -12,6 +12,7 @@ deployment:
     branch: master
     commands:
       - bash ./setup-eb.sh
+      - eb init --profile eb-cli-strive
       - eb deploy
 
 test:
