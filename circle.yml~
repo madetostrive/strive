@@ -12,7 +12,7 @@ deployment:
     branch: master
     commands:
       - bash ./setup-eb.sh
-      - eb deploy strive-main-production
+      - eb deploy
 
 test:
   override:
