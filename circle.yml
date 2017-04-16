@@ -2,6 +2,17 @@ machine:
   php:
     version: 7.0.4
 
+dependencies:
+  pre:
+    - sudo pip install awsebcli
+
+deployment:
+  production:
+    branch: master
+    commands:
+      - bash ./setup-eb.sh
+      - eb deploy
+
 test:
   override:
-    - phpunit test/unit-tests
+    
