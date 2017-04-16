@@ -13,7 +13,3 @@ deployment:
     commands:
       - bash ./setup-eb.sh
       - eb deploy strive-main-production
-
-test:
-  override:
-    
